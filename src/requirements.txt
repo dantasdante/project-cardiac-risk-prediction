@@ -3,6 +3,5 @@ joblib
 pandas
 os
 numpy
-pickle
 scikit-learn
 joblib
