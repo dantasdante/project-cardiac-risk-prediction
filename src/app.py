@@ -15,7 +15,7 @@ st.set_page_config(
 # --- 1. Carregar Modelo e Pré-processadores ---
 # AJUSTE: Os caminhos devem ser relativos à raiz do repositório, onde o app está sendo executado.
 # Como seus arquivos .pkl estão dentro da pasta 'src/', o caminho é 'src/nome_do_arquivo.pkl'.
-MODEL_PATH = "src/mdl.pkl"
+MODEL_PATH = "models/mdl.pkl"
 COLUMN_TRANSFORMER_PATH = "src/column_transformer.pkl"
 SCALER_PATH = "src/scaler.pkl"
 
