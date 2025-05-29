@@ -1,4 +1,8 @@
 streamlit
 joblib
 pandas
-import
+os
+numpy
+pickle
+scikit-learn
+joblib
