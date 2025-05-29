@@ -3,23 +3,29 @@ import joblib
 import pandas as pd
 import numpy as np
 import os
-from pathlib import Path # Importe Pathlib
+from pathlib import Path # Mantenha o Path, ele ainda é uma boa prática e podemos ver o que ele gera
 
-# --- Configurações da Página ---
-st.set_page_config(
-    page_title="Previsão de Doenças Cardíacas",
-    page_icon="❤️",
-    layout="centered"
-)
+# --- LINHAS DE DEPURACÃO ---
+st.write(f"Diretório de trabalho atual: {os.getcwd()}")
+try:
+    st.write(f"Conteúdo do diretório de trabalho atual: {os.listdir(os.getcwd())}")
+except Exception as e:
+    st.write(f"Erro ao listar o diretório atual: {e}")
 
-# --- Definir os caminhos dos arquivos de forma robusta ---
-# Base do diretório onde app.py está localizado (que é 'src/')
-BASE_DIR = Path(__file__).parent
+# Se o seu 'Main module' no Streamlit Cloud é 'src/app.py', o diretório de trabalho atual
+# provavelmente será '/mount/src/project-cardiac-risk-prediction/src'.
+# O seu repositório está em '/mount/src/project-cardiac-risk-prediction'.
+# Então, para chegar aos arquivos .pkl dentro de 'src/', os caminhos abaixo devem ser corretos.
 
-# Caminhos completos para os arquivos .pkl
+# Caminhos usando pathlib (como na Opção 1 que você tentou)
+BASE_DIR = Path(__file__).parent # Isso deve ser '/mount/src/project-cardiac-risk-prediction/src'
 MODEL_PATH = BASE_DIR / "mdl.pkl"
 COLUMN_TRANSFORMER_PATH = BASE_DIR / "column_transformer.pkl"
 SCALER_PATH = BASE_DIR / "scaler.pkl"
+
+st.write(f"Caminho do Modelo (Pathlib): {MODEL_PATH}")
+st.write(f"Caminho do ColumnTransformer (Pathlib): {COLUMN_TRANSFORMER_PATH}")
+st.write(f"Caminho do Scaler (Pathlib): {SCALER_PATH}")
 
 model = None
 column_transformer = None
