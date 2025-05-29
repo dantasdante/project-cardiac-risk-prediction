@@ -3,6 +3,7 @@ import joblib
 import pandas as pd
 import numpy as np
 import os
+from pathlib import Path # Importe Pathlib
 
 # --- Configurações da Página ---
 st.set_page_config(
@@ -11,11 +12,14 @@ st.set_page_config(
     layout="centered"
 )
 
-# --- 1. Carregar Modelo e Pré-processadores ---
-# Certifique-se de que esses arquivos estão no mesmo diretório do app.py
-MODEL_PATH = "mdl.pkl"
-COLUMN_TRANSFORMER_PATH = "column_transformer.pkl"
-SCALER_PATH = "scaler.pkl"
+# --- Definir os caminhos dos arquivos de forma robusta ---
+# Base do diretório onde app.py está localizado (que é 'src/')
+BASE_DIR = Path(__file__).parent
+
+# Caminhos completos para os arquivos .pkl
+MODEL_PATH = BASE_DIR / "mdl.pkl"
+COLUMN_TRANSFORMER_PATH = BASE_DIR / "column_transformer.pkl"
+SCALER_PATH = BASE_DIR / "scaler.pkl"
 
 model = None
 column_transformer = None
