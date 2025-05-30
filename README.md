@@ -104,6 +104,5 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 
 Se você tiver alguma dúvida ou sugestão, entre em contato:
 
-* **Seu Nome:** [Seu Nome Completo]
-* **LinkedIn:** [Link para seu perfil do LinkedIn]
-* **Email:** [Seu Email]
+* **Seu Nome:** Dante Dantas
+* **LinkedIn:** linkedin.com/in/dante-dantas
