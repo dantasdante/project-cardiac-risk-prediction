@@ -7,7 +7,7 @@ import os
 
 # --- Configurações da Página ---
 st.set_page_config(
-    page_title="Previsão de Doenças Cardíacas",
+    page_title="PrevenCor",
     page_icon="❤️",
     layout="centered"
 )
