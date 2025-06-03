@@ -4,9 +4,11 @@
 > Um modelo preditivo para detecção precoce de risco de Doença Arterial Coronariana, visando a prevenção e a redução de custos na saúde.
 > As doenças cardiovasculares (DCVs) são a principal causa de mortalidade global, com impactos sociais e econômicos devastadores. No Brasil, os custos diretos e indiretos associados a condições como a insuficiência cardíaca são bilionários anualmente, e projeções internacionais apontam para um crescimento exponencial.
 
-Este projeto propõe o desenvolvimento de um **modelo preditivo, usando aprendizagem supervisionada** para **estimar a probabilidade de um indivíduos desenvolver Doença Arterial Coronariana (DAC)**. Nossa abordagem busca democratizar o acesso a diagnósticos preventivos, reduzir custos hospitalares e mitigar o impacto econômico dessas patologias, posicionando a prevenção como um pilar fundamental na saúde pública.
+Este projeto propõe o desenvolvimento de um **modelo preditivo, usando aprendizagem supervisionada** para **estimar a probabilidade de um indivíduos desenvolver Doença Arterial Coronariana (DAC)**. Nossa abordagem busca democratizar o acesso a diagnósticos preventivos, reduzir custos hospitalares e mitigar o impacto econômico dessas patologias, posicionando a prevenção como um pilar fundamental na saúde pública por meio de um aplicativo **PrevenCor**.
 
-**[Faça o teste aqui](https://project-cardiac-risk-prediction-prevencor.streamlit.app/)**
+![Static Badge](https://img.shields.io/badge/Experimente%20clicando%20aqui)(https://project-cardiac-risk-prediction-prevencor.streamlit.app/)
+
+
 
 
 ## 🧐 O Problema
