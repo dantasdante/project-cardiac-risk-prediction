@@ -57,9 +57,9 @@ else:
     st.stop()
 
 # --- Título e Descrição da Aplicação ---
-st.title("Sistema de Previsão de Doenças Cardíacas")
+st.title("PrevenCor")
 st.markdown("""
-    Este aplicativo prediz a probabilidade de um indivíduo ter doença cardíaca
+    Este aplicativo estima a probabilidade de um indivíduo ter doença cardíaca
     com base em suas características de saúde. **Por favor, preencha os campos abaixo:**
 """)
 
