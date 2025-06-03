@@ -6,6 +6,9 @@
 
 Este projeto propõe o desenvolvimento de um **modelo preditivo, usando aprendizagem supervisionada** para **estimar a probabilidade de um indivíduos desenvolver Doença Arterial Coronariana (DAC)**. Nossa abordagem busca democratizar o acesso a diagnósticos preventivos, reduzir custos hospitalares e mitigar o impacto econômico dessas patologias, posicionando a prevenção como um pilar fundamental na saúde pública.
 
+**[Faça o teste aqui](https://project-cardiac-risk-prediction-prevencor.streamlit.app/)**
+
+
 ## 🧐 O Problema
 
 As Doenças Cardiovasculares (DCVs) representam a principal causa de mortalidade e morbidade global. Elas não apenas impactam severamente a qualidade de vida, mas também geram custos significativos para os sistemas de saúde. No Brasil, a insuficiência cardíaca (IC) impõe um ônus financeiro de R$ 6 bilhões anuais em produtividade perdida e R$ 38,2 milhões em custos diretos ao SUS somente em 2024. Projeções internacionais, como as dos Estados Unidos, indicam que o custo da IC pode aumentar em 124% até 2050 (de US$ 260 bilhões para US$ 584 bilhões), enquanto na Europa, as DCVs custaram à economia da União Europeia € 282 bilhões em 2021.
