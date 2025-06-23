@@ -1,6 +1,6 @@
-# Previsão de Risco de Doença Cardíaca
+# Notebooks do Projeto
 
-Este projeto tem como objetivo desenvolver um modelo de Machine Learning capaz de prever o risco de doença cardíaca com base em dados de pacientes. O trabalho foi estruturado em uma série de etapas, desde a análise exploratória dos dados até a otimização e explicabilidade do modelo final.
+Os notebooks foram organizados em etapas seguindo a progressão lógica da organização do projeto, sendo cada notebook (`S1`, `S2`, `S3`, `S4`, `S5`) representando um STEP da modelagem.
 
 ## Sumário do Projeto
 
