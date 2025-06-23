@@ -34,7 +34,7 @@ Foram analisadas **13 características clínicas relevantes** para a predição 
 
 Nosso projeto utiliza um **modelo de Machine Learning supervisionado**. Após o treinamento e avaliação, o algoritmo demonstrou alta capacidade preditiva, alcançando:
 
-* **Sensibilidade (Recall): 91%** para o diagnóstico de casos verdadeiros.
+* **Sensibilidade (Recall): 92%** para o diagnóstico de casos verdadeiros.
 
 A escolha do **recall como métrica primária** é estratégica, pois nosso objetivo é **minimizar o número de falsos negativos**, garantindo que o máximo de pacientes em risco seja identificado. Essa abordagem é crucial para ações preventivas e para evitar desfechos graves e custos elevados de tratamento em estágios avançados da doença.
 
