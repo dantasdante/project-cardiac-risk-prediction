@@ -7,6 +7,7 @@
 Este projeto propõe o desenvolvimento de um **modelo preditivo, usando aprendizagem supervisionada** para **estimar a probabilidade de um indivíduos desenvolver Doença Arterial Coronariana (DAC)**. Nossa abordagem busca democratizar o acesso a diagnósticos preventivos, reduzir custos hospitalares e mitigar o impacto econômico dessas patologias, posicionando a prevenção como um pilar fundamental na saúde pública por meio de um aplicativo - **PrevenCor**.
 
 [![Faça o teste clicando aqui](https://img.shields.io/badge/Faça%20o%20teste%20clicando%20aqui-8A2BE2)](https://project-cardiac-risk-prediction-prevencor.streamlit.app/)
+
 ---
 
 ## 🧐 O Problema
@@ -41,6 +42,10 @@ A escolha do **recall como métrica primária** é estratégica, pois nosso obje
 ## 💰 Impacto Econômico Potencial
 
 Alcançando o sucesso (evitando a doença com a prevenção) ao menos 50% do público que sofre com doença cardíacas é possível estimar uma economia em cerca de R$700 milhões por ano, e algo em torno de 92 mil vidas salvas. Essa projeção baseia-se na premissa de que a detecção precoce e a prevenção poderiam impactar positivamente até 50% dos casos, reduzindo significativamente os custos associados ao tratamento de estágios avançados da doença.
+
+[![Sumário Executivo](https://img.shields.io/badge/Para%20sum%C3%A1rio%20executivo%20clique%20aqui-FFFF00)]([https://project-cardiac-risk-prediction-prevencor.streamlit.app/](https://github.com/dantasdante/project-cardiac-risk-prediction/blob/main/relatorios/Summary%20Executive.pdf))
+
+---
 
 ## ⚠️ Aviso Importante
 
