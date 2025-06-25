@@ -43,7 +43,7 @@ A escolha do **recall como métrica primária** é estratégica, pois nosso obje
 
 Alcançando o sucesso (evitando a doença com a prevenção) ao menos 50% do público que sofre com doença cardíacas é possível estimar uma economia em cerca de R$700 milhões por ano, e algo em torno de 92 mil vidas salvas. Essa projeção baseia-se na premissa de que a detecção precoce e a prevenção poderiam impactar positivamente até 50% dos casos, reduzindo significativamente os custos associados ao tratamento de estágios avançados da doença.
 
-[![Sumário Executivo](https://img.shields.io/badge/Para%20sum%C3%A1rio%20executivo%20clique%20aqui-FFFF00)](https://github.com/dantasdante/project-cardiac-risk-prediction/blob/main/relatorios/Summary%20Executive.pdf))
+[![Sumário Executivo](https://img.shields.io/badge/Para%20sum%C3%A1rio%20executivo%20clique%20aqui-FFFF00)](https://github.com/dantasdante/project-cardiac-risk-prediction/blob/main/relatorios/Summary%20Executive.pdf)
 
 ---
 
